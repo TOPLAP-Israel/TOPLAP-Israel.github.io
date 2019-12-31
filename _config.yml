@@ -5,12 +5,12 @@ baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "https://algorave-israel.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: Live Coding IL
+username: Dream Machines
 user_title: Algorave
 email: mynah@earthtoabigail.com
 twitter_username: EarthAbigail
 github_username:  EarthToAbigail
-linkedin_public_url: www.linkedin.com/in/mynah-marie # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: https://www.linkedin.com/in/mynah-marie # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
 profile_picture: /assets/img/home/logo.png
 
