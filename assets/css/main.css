@@ -403,7 +403,7 @@ aside ul {
 }
 aside #topmenu {
   background-color: #0ff;
-  border: 2px solid #0ff;
+  border-bottom: 0px solid #0ff;
   *zoom: 1;
 }
 aside #topmenu:before,
@@ -443,7 +443,6 @@ aside #topmenu ul:nth-child(2) {
   width: 33.05%;
   margin-left: 0%;
   margin-right: 3%;
-  display: none;
   text-align: right;
 above(1000px)
 }
@@ -464,7 +463,7 @@ aside #topmenu ul:nth-child(2) li:first-child {
 aside #topmenu ul:nth-child(2) li:first-child span {
   background: transparent;
   border-radius: 0;
-  color: #fff;
+  color: #737373;
   width: 45px;
 }
 aside #topmenu ul:nth-child(2) li:nth-child(2) {
@@ -480,7 +479,7 @@ aside #topmenu ul li {
   -ms-transform: skewx(-20deg);
   transform: skewx(-20deg);
   padding: 3px 4px 6px 4px;
-  background: #000;
+  background: #262626;
   display: inline-block;
 }
 aside #topmenu ul li:first-child {
@@ -1259,7 +1258,7 @@ pre span {
   -webkit-border-radius: 3px;
   border-radius: 0px;
   padding: 20px;
-  background-color: #000;
+  background-color: #262626;
   color: #c1c2c3;
   margin: 0;
   margin-bottom: 30px;
