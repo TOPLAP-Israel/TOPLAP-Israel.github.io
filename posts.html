@@ -1,16 +1,18 @@
 ---
-layout: compress
+layout: minimal
+title: "Blog"
+permalink: /posts/index.html
+description: "Articles, news and updates"
 ---
 
-<!DOCTYPE html>
-<html lang="pt-br">
-    {% include head.html %}
-    <body>
-        <div class="page_posts">
-        {% include svg-icons.html %}
-        {% include header-post.html %}
-        {% include tree-posts.html %}
-        </div>
-        {% include scripts.html %}
-    </body>
-</html>
+<img itemprop="image" class="img-rounded about_perfil" src=" https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png" alt="My profile">
+
+<h2>Articles, news and updates</h2>
+
+<div class="aboutme">
+	<ul class="recent">
+		{% for post in site.posts %}
+	    	<li><a href="{{ post.url}}"><h3 class="project-name" itemprop="name">{{ post.title }}</h3></a></li>
+	    {% endfor %}
+	</ul>
+</div>
