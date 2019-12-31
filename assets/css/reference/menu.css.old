@@ -1,0 +1,142 @@
+aside #topmenu ul:before,
+aside #topmenu ul:after {
+  content:'';
+  display:table
+}
+
+aside #topmenu ul:after {
+  clear:both
+}
+
+aside #topmenu ul:last-child {
+  margin-right:0%
+}
+
+@media only screen and (max-width:1000px) {
+  aside #topmenu ul {
+    *zoom:1;
+    float:left;
+    clear:none;
+    text-align:inherit;
+    width:100%;
+    margin-left:0%;
+    margin-right:3%
+  }
+
+  aside #topmenu ul:before,aside #topmenu ul:after {
+    content:'';
+    display:table
+  }
+
+  aside #topmenu ul:after {
+    clear:both
+  }
+
+  aside #topmenu ul:last-child {
+    margin-right:0%
+  }
+}
+
+aside #topmenu ul:nth-child(2) {
+  *zoom:1;
+  float:left;
+  clear:none;
+  text-align:inherit;
+  width:33.05%;
+  margin-left:0%;
+  margin-right:3%;
+  display:none;
+  text-align:right;
+}
+
+aside #topmenu ul:nth-child(2):before,aside #topmenu ul:nth-child(2):after {
+  content:'';
+  display:table
+}
+
+aside #topmenu ul:nth-child(2):after {
+  clear:both
+}
+
+aside #topmenu ul:nth-child(2):last-child {
+  margin-right:0%
+}
+
+aside #topmenu ul:nth-child(2) li:first-child {
+  background:transparent;
+}
+
+aside #topmenu ul:nth-child(2) li:first-child span {
+  background:transparent;
+  border-radius:0;
+  color:#fff;
+  width:45px
+}
+
+aside #topmenu ul:nth-child(2) li:nth-child(2) {
+  padding-left:20px;
+  padding-right:20px
+}
+
+aside #topmenu ul:nth-child(2) li:nth-child(3) {
+  margin-right:-10px;
+  padding-left:10px;
+}
+
+@media only screen and (min-width:1000px) {
+  aside #topmenu ul:nth-child(2){
+    display:block
+  }
+}
+
+aside #topmenu ul li {
+  -webkit-transform:skewx(-20deg);
+  transform:skewx(-20deg);
+  padding:3px 4px 6px 4px;
+  background:#2f2f33;
+  display:inline-block;
+}
+
+aside #topmenu ul li:first-child {
+  background:#efb102;
+  padding:4px 10px 4px 20px;
+  margin-left:-10px;
+}
+
+aside #topmenu ul li:first-child span {
+  border-radius:100%;
+  width:20px;
+  height:20px;
+  text-align:center;
+  background-color:#000;
+  color:#efb102;
+  font-weight:300
+}
+
+aside #topmenu ul li:nth-child(3) {
+  background:#ab67ab;
+  padding-right:30px;
+  padding-left:30px;
+}
+
+aside #topmenu ul li:nth-child(3) span {
+  color:#fff
+}
+
+aside #topmenu ul li span {
+  -webkit-transform:skewx(20deg);
+  transform:skewx(20deg);
+  display:block;
+  font-family:'Open Sans',sans-serif;
+  font-weight:800;
+  font-style:normal;
+  font-size:.813rem;
+  color:#ab67ab
+}
+
+@media only screen and (max-width:37.5rem) {
+  aside #topmenu ul li:nth-child(3),
+  aside #topmenu ul li:nth-child(4) {
+    display:none
+  }
+}

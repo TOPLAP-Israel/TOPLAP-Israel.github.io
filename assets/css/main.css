@@ -414,27 +414,37 @@ aside #topmenu:after {
 aside #topmenu:after {
   clear: both;
 }
-aside #topmenu ul {
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 63.95%;
-  margin-left: 0%;
-  margin-right: 3%;
-below(1000px)
+
+/* Added manually missing media query */
+@media only screen and (max-width:1000px) {
+  aside #topmenu ul {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 63.95%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  aside #topmenu ul:before,
+  aside #topmenu ul:after {
+    content: '';
+    display: table;
+  }
+  aside #topmenu ul:after {
+    clear: both;
+  }
+  aside #topmenu ul:last-child {
+    margin-right: 0%;
+  }
 }
-aside #topmenu ul:before,
-aside #topmenu ul:after {
-  content: '';
-  display: table;
+
+/* Added by me */
+aside #topmenu ul:nth-child(1) li:last-child {
+  padding-left: 10px;
+  padding-right: 10px;
 }
-aside #topmenu ul:after {
-  clear: both;
-}
-aside #topmenu ul:last-child {
-  margin-right: 0%;
-}
+
 aside #topmenu ul:nth-child(2) {
   *zoom: 1;
   float: left;
@@ -445,8 +455,8 @@ aside #topmenu ul:nth-child(2) {
   margin-right: 3%;
   display: none;
   text-align: right;
-above(1000px)
 }
+
 aside #topmenu ul:nth-child(2):before,
 aside #topmenu ul:nth-child(2):after {
   content: '';
@@ -516,6 +526,37 @@ aside #topmenu ul li span {
   font-size: 0.813rem;
   color: #b300b3;
 }
+/* Missing media queries */
+@media only screen and (max-width:37.5rem) {
+  aside #topmenu ul li:nth-child(3),
+  aside #topmenu ul li:nth-child(4) {
+    display:none
+  }
+}
+@media only screen and (min-width:1000px) {
+  aside #topmenu ul:nth-child(2){
+    display:block
+  }
+}
+
+/* This block was in the old working css */
+/* aside #topmenu ul:last-child {
+  margin-right: 0%;
+} */
+
+/* This block was in the old working css for all ul elements.
+Modified it to target only topmenu */
+aside #topmenu ul {
+  *zoom:1;
+  float:left;
+  clear:none;
+  text-align:inherit;
+  width:63.95%;
+  margin-left:0%;
+  margin-right:3%;
+}
+
+
 aside nav ul {
   padding: 10px 0 0 10px;
   float: left;
