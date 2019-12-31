@@ -443,6 +443,7 @@ aside #topmenu ul:nth-child(2) {
   width: 33.05%;
   margin-left: 0%;
   margin-right: 3%;
+  display: none;
   text-align: right;
 above(1000px)
 }
