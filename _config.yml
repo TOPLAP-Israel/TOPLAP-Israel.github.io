@@ -1,12 +1,12 @@
 # Site settings
-title: Live Coding IL
-description: "A platform for algorithmic events and the live coding community in Israel."
+title: TopLap IL
+description: "Home for the live coding community in Israel."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "https://algorave-israel.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: Dream Machines
-user_title: Algorave
+username: "Home for the live coding community in Israel"
+user_title: "TopLap IL"
 email: mynah@earthtoabigail.com
 twitter_username: EarthAbigail
 github_username:  EarthToAbigail
@@ -32,17 +32,17 @@ links:
     - title: home
       url: /
       key_trigger: 1
-    - title: blog
-      url: /posts
-      key_trigger: 2
-    - title: series
-      url: /series
-      key_trigger: 3
-    - title: tags
-      url: /tags
-      key_trigger: 4
-    - title: about me
+    - title: about
       url: /about
+      key_trigger: 2
+    - title: blog
+      url: /blog
+      key_trigger: 3
+    - title: calendar
+      url: /calendar
+      key_trigger: 4
+    - title: categories
+      url: /categories
       key_trigger: 5
   section_2:
     - title: github
@@ -54,7 +54,7 @@ links:
       key_trigger: t
     - title: search
       url: ""
-      key_trigger: s #WARNING: search only works with "s"
+      key_trigger: s
 
 # projects in header index
 projects:
