@@ -1,17 +1,17 @@
 # Site settings
 title: TopLap IL
-description: "Home for the live coding community in Israel."
+description: "Home of the live coding community in Israel."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "https://algorave-israel.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: "Home for the live coding community in Israel"
+username: "Home of the live coding community in Israel"
 user_title: "TopLap IL"
 email: mynah@earthtoabigail.com
 twitter_username: EarthAbigail
 github_username:  EarthToAbigail
 linkedin_public_url: https://www.linkedin.com/in/mynah-marie # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
+disqus_username: toplap-israel
 profile_picture: /assets/img/home/logo.png
 
 # Build settings

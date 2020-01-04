@@ -287,8 +287,16 @@ h4 {
   fill: #000;
   width: 18px;
   height: 18px;
-above(37.5rem)
+/* above(37.5rem) */
 }
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .icons-home a .icon{
+    width:30px;
+    height:30px
+  }
+}
+
 .icons-home a:hover {
   background: #000;
 }
@@ -491,9 +499,10 @@ aside #topmenu ul li {
   -webkit-transform: skewx(-20deg);
   -ms-transform: skewx(-20deg);
   transform: skewx(-20deg);
-  padding: 3px 4px 6px 4px;
+  padding: 3px 10px 6px 8px;
   background: #262626;
   display: inline-block;
+  margin: 0 -2px 0 -3px;
 }
 aside #topmenu ul li:first-child {
   background: #efb102;
@@ -682,7 +691,7 @@ input[type="search"]::-webkit-search-cancel-button {
   right: 0;
   z-index: 1;
   display: block;
-  fill: #000;
+  fill: #fff;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -709,7 +718,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .search-form p,
 .search-form a,
 .search-form a:hover {
-  color: #000;
+  color: #fff;
 }
 body.search-overlay {
   overflow: hidden;
@@ -722,10 +731,11 @@ body.search-overlay:after {
   width: 100%;
   height: 100%;
   min-height: 100%;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,1);
   content: '';
-below(37.5rem)
+/* below(37.5rem) */
 }
+
 .search-wrapper {
   position: absolute;
   top: 50px;
@@ -843,10 +853,12 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .header-site li {
   margin: 0;
   list-style-type: none;
 }
+
 .header-site .person img {
   width: 130px;
   height: 130px;
@@ -861,7 +873,7 @@ body {
 }
 
 .header-site .recent {
-below(320px)
+/* below(320px) */
   *zoom: 1;
   width: auto;
   max-width: 450px;
@@ -872,6 +884,14 @@ below(320px)
   padding-left: 0;
   padding-right: 0;
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:320px){
+  .header-site .recent:last-child{
+    display:none
+  }
+}
+
 .header-site .recent:before,
 .header-site .recent:after {
   content: '';
@@ -904,12 +924,12 @@ below(320px)
 }
 .header-site .site-title {
   font-size: 1.875rem;
-  line-height: 1;
+  line-height: 2;
   display: block;
   font-variant-ligatures: none;
   letter-spacing: 4px;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 /* Missing media query */
@@ -917,7 +937,7 @@ below(320px)
   .header-site .site-title{
     letter-spacing:8px;
     margin-bottom:0;
-    font-size:1.25rem
+    font-size:1.65rem
   }
 }
 
@@ -925,7 +945,7 @@ below(320px)
   .header-site .site-title{
     letter-spacing:3px;
     margin-bottom:0;
-    font-size:0.6rem
+    font-size:0.9rem
   }
 }
 
@@ -944,7 +964,7 @@ below(320px)
 
 .header-post {
   /* height: 62px; */
-  height: 20%;
+  height: 10%;
 }
 
 /* Missing media query */
@@ -1034,7 +1054,7 @@ below(320px)
 }
 .post-item .content {
   *zoom: 1;
-below(37.5rem)
+/* below(37.5rem) */
 }
 .post-item .content:before,
 .post-item .content:after {
@@ -1044,15 +1064,63 @@ below(37.5rem)
 .post-item .content:after {
   clear: both;
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .post-item .content{
+    text-align:center;
+    display:block;
+    clear:both;
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto
+  }
+
+  .post-item .content:first-child{
+    margin-left:auto
+  }
+
+  .post-item .content:last-child{
+    margin-right:auto
+  }
+}
+
 .post-item .content a {
   text-transform: lowercase;
-above(37.5rem)
+/* above(37.5rem) */
   text-decoration: none;
   border: none;
 }
+
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post-item .content a{
+    *zoom:1;
+    float:left;
+    clear:none;
+    text-align:inherit;
+    width:69.1%;
+    margin-left:0%;
+    margin-right:3%
+  }
+
+  .post-item .content a:before,.post-item .content a:after{
+    content:'';
+    display:table
+  }
+  .post-item .content a:after{
+    clear:both
+  }
+  .post-item .content a:last-child{
+    margin-right:0%
+  }
+}
+
 .post-item .content .date {
   color: #0ff;
 }
+
 .post-item .content .post-title {
   color: #c7b288;
   position: relative;
@@ -1068,6 +1136,30 @@ above(37.5rem)
 .post-item .content .post-title:hover {
   background-color: rgba(199,178,136,0.32);
 }
+
+/*Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post-item .content .post-title{
+    text-align:left;
+    margin-left:-.625rem;
+    display:initial;
+    font-size:1.063rem;
+    text-decoration:none
+  }
+}
+/*Missing media query present in old css */
+@media only screen and (min-width:90.625rem){
+  .post{
+    margin-left:347px
+  }
+}
+
+/* Added by me */
+.post {
+  width: 80%;
+  margin: auto;
+}
+
 .post h1:before,
 .post h2:before,
 .post h3:before {
@@ -1079,8 +1171,16 @@ above(37.5rem)
   text-align: center;
   margin: 0;
   font-size: 1.875rem;
-above(37.5rem)
+/* above(37.5rem) */
 }
+
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post h1{
+    font-size:2.5rem
+  }
+}
+
 .post h1:before {
   content: "#";
   color: #b3b3b3;
@@ -1138,8 +1238,8 @@ above(37.5rem)
   font-weight: 300;
   font-style: normal;
   color: #00e6e6;
-  text-decoration: none;
-  border-bottom: 2px solid #00e6e6;
+  /* text-decoration: none; */
+  /* border-bottom: 2px solid #00e6e6; */
 }
 .post-content a:hover {
   background-color: rgba(221,221,221,0.42);
@@ -1163,12 +1263,12 @@ above(37.5rem)
 .post-content h1 {
   font-size: 1.875rem;
   line-height: 1.4;
-above(37.5rem)
+/* above(37.5rem) */
 }
 .post-content h2 {
   font-size: 1.375rem;
   line-height: 1.4;
-above(37.5rem)
+/* above(37.5rem) */
 }
 .post-content h2:before {
   content: '##';
@@ -1177,16 +1277,58 @@ above(37.5rem)
 .post-content h3 {
   font-size: 1.125rem;
   line-height: 1.4;
-above(37.5rem)
+/* above(37.5rem) */
 }
 .post-content ul,
 .post-content ol {
   padding-left: 2.5rem;
 }
+
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post-content p,
+  .post-content h1,
+  .post-content h2,
+  .post-content h3,
+  .post-content h4,
+  .post-content ul,
+  .post-content ol,
+  .post-content .tags,
+  .post-content iframe{
+    font-size:1.25rem
+  }
+}
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post-content h1{
+    font-size:2.813rem
+  }
+}
+
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post-content h2{
+    font-size:2.188rem
+  }
+}
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+  .post-content h3{
+    font-size:1.563rem
+  }
+}
+
 .post-content ul.post-list {
   padding: 0;
-below(37.5rem)
+/* below(37.5rem) */
 }
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .post-content ul.post-list{
+    padding:0 1.25rem
+  }
+}
+
 .post-content blockquote {
   *zoom: 1;
   width: auto;
@@ -1197,10 +1339,10 @@ below(37.5rem)
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  border-left: 0.313rem solid #0ff;
+  border-left: 0.313rem solid #008080;
   padding: 0 1.875rem;
   margin: 3.125rem auto;
-below(37.5rem)
+/* below(37.5rem) */
 }
 .post-content blockquote:before,
 .post-content blockquote:after {
@@ -1210,11 +1352,35 @@ below(37.5rem)
 .post-content blockquote:after {
   clear: both;
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .post-content blockquote{
+    width:70%
+  }
+}
+
 .post-content blockquote p {
   color: rgba(0,0,0,0.6);
   margin: 0;
-below(37.5rem)
+/* below(37.5rem) */
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .post-content blockquote p{
+    font-size:1.125rem;
+    line-height:1.5;
+    padding:0
+  }
+}
+
+/* Added by me */
+.post-content blockquote a {
+  color: #008080;
+  margin: 0;
+}
+
 .post-content hr {
   *zoom: 1;
   width: auto;
@@ -1274,8 +1440,16 @@ below(37.5rem)
 }
 table {
   margin: 3.125rem auto;
-below(37.5rem)
+/* below(37.5rem) */
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  table{
+    display:none
+  }
+}
+
 table th,
 table td {
   border: 0.125rem solid #ccc;
@@ -1288,7 +1462,7 @@ table td {
   font-size: 2.25rem;
   margin-top: 3.75rem;
   *zoom: 1;
-  width: auto;
+  width: 30%;
   max-width: 50rem;
   float: none;
   display: block;
@@ -1296,7 +1470,7 @@ table td {
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-below(37.5rem)
+/* below(37.5rem) */
 }
 .tag-title:before,
 .tag-title:after {
@@ -1306,11 +1480,29 @@ below(37.5rem)
 .tag-title:after {
   clear: both;
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .tag-title{
+    font-size:1.75rem;
+    margin-top:1.25rem;
+    padding:0 1.25rem
+  }
+}
+
 .post-list {
   list-style: none;
   margin: 1.563rem auto;
-below(37.5rem)
+/* below(37.5rem) */
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .post-list{
+    padding:0 1.25rem
+  }
+}
+
 .post-list a {
   display: block;
   border-bottom: 1px solid #dadada;
@@ -1325,16 +1517,34 @@ below(37.5rem)
 }
 .post-list .entry-date {
   float: right;
-below(37.5rem)
+/* below(37.5rem) */
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  .post-list .entry-date{
+    display:none
+  }
+}
+
 pre {
   width: 100%;
   padding: 1.25rem 0;
   color: #000;
   margin: 1.875rem 0;
   font-size: 0.875rem;
-above(37.5rem)
+/* above(37.5rem) */
 }
+
+/* Missing media query present in old css */
+@media only screen and (min-width:37.5rem){
+pre{
+    font-size:1rem;
+    padding:1.25rem 0;
+    margin:1.25rem 0
+  }
+}
+
 pre code {
   *zoom: 1;
   width: auto;
@@ -1346,8 +1556,9 @@ pre code {
   padding-left: 0;
   padding-right: 0;
   padding: 0 1.25rem;
-below(37.5rem)
+/* below(37.5rem) */
 }
+
 pre code:before,
 pre code:after {
   content: '';
@@ -1356,6 +1567,14 @@ pre code:after {
 pre code:after {
   clear: both;
 }
+
+/* Missing media query present in old css */
+@media only screen and (max-width:37.5rem){
+  pre code{
+    overflow-x:scroll
+  }
+}
+
 pre span {
   line-height: 1.5rem;
   font-family: 'Monaco', 'Consolas', 'Menlo', monospace;
