@@ -1,22 +1,3 @@
-/*  Syntax Quick Reference for Jeet
-    --------------------------
-    column(ratios = 1, offset = 0, cycle = 0, uncycle = 0, gutter = jeet.gutter)
-    span(ratio = 1, offset = 0)
-    shift(ratios = 0, col_or_span = column, gutter = jeet.gutter)
-    unshift()
-    edit()
-    center(max_width = 1410px, pad = 0)
-    stack(pad = 0, align = false)
-    unstack()
-    align(direction = both)
-    cf()
-
-    For more info see:
-        Kouto Swiss Doc: http://kouto-swiss.io/
-        Jeet Doc: http://jeet.gs
-
-    And of course, look in node_modules for axis-css and jeet
-*/
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -395,7 +376,7 @@ a.slideButton,
 }
 aside {
   position: fixed;
-  height: 163px;
+  height: 33%;
   width: 100%;
   bottom: -100%;
   background: #000;
@@ -406,6 +387,7 @@ aside {
 aside li {
   margin: 0;
   list-style-type: none;
+  font-size: 1.3rem;
 }
 aside ul {
   margin: 0;
@@ -502,7 +484,7 @@ aside #topmenu ul li {
   padding: 3px 10px 6px 8px;
   background: #262626;
   display: inline-block;
-  margin: 0 -2px 0 -3px;
+  margin: -1px -2px -1px -3px;
 }
 aside #topmenu ul li:first-child {
   background: #efb102;
@@ -608,7 +590,7 @@ a.slideButton.slide {
 }
 .overlay.slide {
   pointer-events: auto;
-  bottom: 162px;
+  bottom: 33%;
   background: rgba(0,0,0,0.6);
 }
 input[type="search"] {
@@ -712,13 +694,14 @@ input[type="search"]::-webkit-search-cancel-button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: #fff;
 }
 .search-form h4,
 .search-form li,
 .search-form p,
 .search-form a,
 .search-form a:hover {
-  color: #fff;
+  color: #0ff;
 }
 body.search-overlay {
   overflow: hidden;
@@ -774,11 +757,11 @@ body.search-overlay:after {
   display: block;
   padding: 0.938rem 0;
   width: 100%;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #800060;
 }
 .search-list a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
 .tags {
   margin-top: 1.875rem;
@@ -940,7 +923,7 @@ body {
     font-size:1.65rem
   }
 }
-
+/* Missing media query */
 @media only screen and (max-width:37.5rem){
   .header-site .site-title{
     letter-spacing:3px;
@@ -983,7 +966,7 @@ body {
   margin: 0;
   padding-top: 23px;
   text-align: center;
-  color: #000;
+  /* color: #000; */
 }
 .page-header {
   height: 62px;
@@ -991,11 +974,11 @@ body {
 
 .page-header h1 {
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 1.875rem;
   margin: 0 0 30px;
   padding-top: 10px;
-  color: #000;
+  color: #fff;
   font-weight: 300;
 
 }
@@ -1128,7 +1111,7 @@ body {
   font-size: 1rem;
   margin: 0;
   text-align: center;
-above(37.5rem)
+/* above(37.5rem) */
 }
 .post-item .content .post-title.selected {
   background: #0ff;
@@ -1223,7 +1206,7 @@ above(37.5rem)
   font-size: 1.125rem;
   line-height: 2;
   letter-spacing: 0.01rem;
-above(37.5rem)
+/* above(37.5rem) */
 }
 .post-content p,
 .post-content li {
@@ -1282,6 +1265,11 @@ above(37.5rem)
 .post-content ul,
 .post-content ol {
   padding-left: 2.5rem;
+}
+
+/* Added by me */
+.post-content li {
+  padding-top: 1rem;
 }
 
 /* Missing media query present in old css */
@@ -1783,7 +1771,158 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #0ff;
+  color: #888;
   text-align: center;
   margin: 0;
+}
+
+
+/* BLOG CARD CSS */
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.6%;
+  background: #fff;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0;
+}
+.blog-card a {
+  color: inherit;
+}
+
+.blog-card:hover .photo {
+  -webkit-transform: scale(1.3) rotate(3deg);
+          transform: scale(1.3) rotate(3deg);
+}
+.blog-card .meta {
+  position: relative;
+  z-index: 0;
+  height: 200px;
+}
+.blog-card .photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+.blog-card .details,
+.blog-card .details ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+.blog-card .details .tags li {
+  margin-right: 2px;
+}
+.blog-card .details .tags li:first-child {
+  margin-left: -4px;
+}
+.blog-card .description {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.blog-card .description h1,
+.blog-card .description h2 {
+  font-family: Poppins, sans-serif;
+}
+.blog-card .description h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.7rem;
+}
+.blog-card .description h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-top: 5px;
+}
+.blog-card .description .read-more {
+  text-align: right;
+}
+.blog-card .description .read-more a {
+  color: #008080;
+  display: inline-block;
+  position: relative;
+}
+.blog-card .description .read-more a:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin .3s, opacity .3s;
+}
+.blog-card .description .read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+.blog-card p {
+  position: relative;
+  margin: 1rem 0 0;
+}
+.blog-card p:first-of-type {
+  margin-top: 1.25rem;
+}
+.blog-card p:first-of-type:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background: #008080;
+  width: 35px;
+  top: -0.75rem;
+  border-radius: 3px;
+}
+.blog-card:hover .details {
+  left: 0%;
+}
+@media (min-width: 640px) {
+  .blog-card {
+    flex-direction: row;
+    max-width: 700px;
+  }
+  .blog-card .meta {
+    flex-basis: 40%;
+    height: auto;
+  }
+  .blog-card .description {
+    flex-basis: 60%;
+  }
+  .blog-card .description:before {
+    -webkit-transform: skewX(-3deg);
+            transform: skewX(-3deg);
+    content: "";
+    background: #fff;
+    width: 30px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .blog-card.alt {
+    flex-direction: row-reverse;
+  }
+  .blog-card.alt .description:before {
+    left: inherit;
+    right: -10px;
+    -webkit-transform: skew(3deg);
+            transform: skew(3deg);
+  }
+  .blog-card.alt .details {
+    padding-left: 25px;
+  }
 }

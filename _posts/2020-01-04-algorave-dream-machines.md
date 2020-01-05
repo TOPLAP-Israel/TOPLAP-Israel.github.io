@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "TopLap IL presents Israel's First Algorave: Dream Machines"
-image: ''
-date:   2020-01-04 03:03:15
+image: '/assets/img/posts/dream-machines/Algorave_Dream_Machines.gif'
+date:   2020-01-04
+author: "Mynah Marie"
 tags:
 - algorave
 - algorithmic music
