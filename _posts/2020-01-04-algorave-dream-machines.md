@@ -15,10 +15,46 @@ categories:
 
 <img style="width:100%;height:100%;" src="/assets/img/posts/dream-machines/Dream_Machines_banner_highres.gif">
 
->Algorave is made from “sounds wholly or predominantly characterised by the emission of a succession of repetitive conditionals“. These days just about all electronic music is made using software, but with artificial barriers between the people creating the software algorithms and the people making the music. Using systems built for creating algorithmic music and visuals, such as IXI Lang, puredata, Max/MSP, SuperCollider, Extempore, Fluxus, TidalCycles, Gibber, Sonic Pi, FoxDot and Cyril these barriers are broken down, and musicians are able to compose and work live with their music as algorithms. This has good and bad sides, but a different approach leads to interesting places. - [Algorave official website](https://algorave.com/about/)
+From the [Algorave official website](https://algorave.com/about/):
+"Algorave is made from “sounds wholly or predominantly characterised by the emission of a succession of repetitive
+conditionals“. These days just about all electronic music is made using software, but with artificial barriers
+between the people creating the software algorithms and the people making the music. Using systems built for
+creating algorithmic music and visuals, such as IXI Lang, puredata, Max/MSP, SuperCollider, Extempore, Fluxus,
+TidalCycles, Gibber, Sonic Pi, FoxDot and Cyril these barriers are broken down, and musicians are able to
+compose and work live with their music as algorithms. This has good and bad sides, but a different approach
+leads to interesting places."
 
-Inspired by Ted Nelson's ideologies exposed in his dual-book _Computer Lib / Dream Machines_, this Algorave
-movement's first edition in Israel aspires to celebrate the creative power of code and technology through music,
+Uniting both visual and sound artists, "Dream Machines" is a celebration of our passion for code. We celebrate code
+not only for the possibilities it can open but also because of the sense of magic it can create when used as a form
+of human artistic expression.
+
+Inspired by Ted Nelson's ideologies exposed in his dual-book _Computer Lib / Dream Machines_, the first edition of
+an Algorave in Israel aspires to celebrate the creative power of code and technology through music,
 dance and visuals. We want to go back to a time where dreams of what the World could become through the power of
 technology were alive and thriving. A time where visionaries imagined a fascinating world without borders to
-creativity and learning.
+creativity and learning supported by the help of computers.
+
+**Performers**:
+
+Panos Pandis (UK)<br>
+Earth To Abigail (Canada/Portugal)<br>
+Tomer Baruch (IL)<br>
+Johny Tal (IL)<br>
+Eyal Gruss (IL)<br>
+Yaniv Schonfeld (IL)<br>
+
+...and more<br>
+
+**Where and when?**
+
+Thursday, June 25, 2020 <br>
+Clipa Theatre, Tel Aviv <br>
+Doors open at 6pm, performances start at 7pm
+
+**Tickets**
+
+Early bird price (until April 30th): **75₪** <br>
+Pre-sale on the website (May 1st until June 25): **120₪** <br>
+At the door: **150₪** <br>
+
+[Buy tickets directly on Clipa Theatre's website](https://www.clipa.co.il)
