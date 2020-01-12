@@ -15,16 +15,17 @@ categories:
 
 <img style="width:100%;height:100%;" src="/assets/img/posts/dream-machines/Dream_Machines_banner_highres.gif">
 
-From the [Algorave official website](https://algorave.com/about/):
+From the [Algorave official website](https://algorave.com/about/):<br>
 "Algorave is made from “sounds wholly or predominantly characterised by the emission of a succession of repetitive
 conditionals“. These days just about all electronic music is made using software, but with artificial barriers
-between the people creating the software algorithms and the people making the music. Using systems built for
-creating algorithmic music and visuals, such as IXI Lang, puredata, Max/MSP, SuperCollider, Extempore, Fluxus,
-TidalCycles, Gibber, Sonic Pi, FoxDot and Cyril these barriers are broken down, and musicians are able to
-compose and work live with their music as algorithms. This has good and bad sides, but a different approach
+between the people creating the software algorithms and the people making the music."
+
+"Using systems built for creating algorithmic music and visuals, such as IXI Lang, puredata, Max/MSP, SuperCollider,
+Extempore, Fluxus, TidalCycles, Gibber, Sonic Pi, FoxDot and Cyril these barriers are broken down, and musicians are
+able to compose and work live with their music as algorithms. This has good and bad sides, but a different approach
 leads to interesting places."
 
-Uniting both visual and sound artists, "Dream Machines" is a celebration of our passion for code. We celebrate code
+Uniting both visual and sound artists, *Dream Machines* is a celebration of our passion for code. We celebrate code
 not only for the possibilities it can open but also because of the sense of magic it can create when used as a form
 of human artistic expression.
 
