@@ -25,7 +25,7 @@ Extempore, Fluxus, TidalCycles, Gibber, Sonic Pi, FoxDot and Cyril these barrier
 able to compose and work live with their music as algorithms. This has good and bad sides, but a different approach
 leads to interesting places."
 
-Uniting both visual and sound artists, *Dream Machines* is a celebration of our passion for code. We celebrate code
+Uniting both visual and sound artists, **Dream Machines** is a celebration of our passion for code. We celebrate code
 not only for the possibilities it can open but also because of the sense of magic it can create when used as a form
 of human artistic expression.
 
