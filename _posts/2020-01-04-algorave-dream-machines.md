@@ -19,8 +19,8 @@ Uniting both visual and sound artists, **Dream Machines** is a celebration of ou
 not only for the possibilities it can open but also because of the sense of magic it can create when used as a form
 of human artistic expression.
 
-Inspired by Ted Nelson's ideologies exposed in his dual-book _Computer Lib / Dream Machines_, the first edition of
-an Algorave in Israel aspires to celebrate the creative power of code and technology through music,
+Inspired by Ted Nelson's ideologies exposed in his dual-book _Computer Lib / Dream Machines_, Israel's first
+Algorave edition aspires to celebrate the creative power of code and technology through music,
 dance and visuals. We want to go back to a time where dreams of what the World could become through the power of
 technology were alive and thriving. A time where visionaries imagined a fascinating world without borders to
 creativity and learning supported by the help of computers.
