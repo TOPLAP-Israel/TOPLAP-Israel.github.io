@@ -45,8 +45,13 @@
                 <svg viewBox="0 0 50 50" class="icon-arrow-menu">
                     <use xlink:href="#icon-right-arrow"></use>
                 </svg>
+                {% if link.new_tab %}
+                <a key-trigger={{ link.key_trigger }}
+                    href="{{ link.url }}" target="_blank"> {{ link.title }}</a>
+                {% else %}
                 <a key-trigger={{ link.key_trigger }}
                     href="{{ link.url }}"> {{ link.title }}</a>
+                {% endif %}
             </li>
       {% endfor %}
       </ul>

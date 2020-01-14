@@ -31,22 +31,19 @@ links:
   section_1:
     - title: home
       url: /
-      key_trigger: 1
+      key_trigger: h
     - title: about
       url: /about
-      key_trigger: 2
+      key_trigger: a
     - title: blog
       url: /blog
-      key_trigger: 3
+      key_trigger: b
     - title: calendar
       url: /calendar
-      key_trigger: 4
-    - title: categories
-      url: /categories
-      key_trigger: 5
+      key_trigger: c
   section_2:
     - title: github
-      url: https://www.github.com/EarthToAbigail
+      url: https://www.github.com/TOPLAP-Israel
       new_tab: true
       key_trigger: g
     - title: twitter
