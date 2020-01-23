@@ -51,6 +51,10 @@ links:
       url: https://www.facebook.com/groups/866355520434300/
       new_tab: true
       key_trigger: f
+    - title: visit TAMI
+      url: https://beta.telavivmakers.org/
+      new_tab: true
+      key_trigger: v
     - title: search
       url: ""
       key_trigger: s

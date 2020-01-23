@@ -9,9 +9,10 @@
             {% if page.date %}
                 <div class="time">
                     <time itemprop="datePublished" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+                  <br></br>
                 </div>
             {% endif %}
-            <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+            <h1 class="post-title" itemprop="name">{{ page.post_title }}</h1>
 
             <article style="text-align: justify;" role="article" id="scroll" class="post-content" itemprop="articleBody">
                 {{ content }}
