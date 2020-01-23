@@ -1,4 +1,4 @@
-// for a commented version go to http://www.cyberdelia.xyz/annotated.js
+// modified source code from https://www.cyberdelia.party
 
 var W = 50;
 var M = Math;
@@ -17,7 +17,6 @@ var calculate = function(x, y) {
 var title = document.title;
 
 var chooseChar = function(b){
-  // return b < 70 ? " " : b < 100 ? "." : b < 175 ? "o" : b < 200 ? "O" : "@";
   return b < 70 ? " " : b < 100 ? "_" : b < 175 ? "-" : b < 200 ? "+" : "@";
 };
 
@@ -26,13 +25,10 @@ var displayText = function() {
   console.log("margin: " + margin);
 
   p.innerHTML = "";
-  // for(y = 1; y--;) {
-    for(k = 0, l = "", x = 0; x < W; x++) {
-      // l += y==10 && x > 31 && x < 50 ? title[k++] : chooseChar(calculate(y, x));
-        l += x == margin - 1 || x == margin + title.length ? "." : x >= margin && x < title.length + margin ? title[k++] : chooseChar(calculate(0, x));
-    }
-    p.innerHTML += l + "<br>";
-  // }
+  for(k = 0, l = "", x = 0; x < W; x++) {
+    l += x == margin - 1 || x == margin + title.length ? "." : x >= margin && x < title.length + margin ? title[k++] : chooseChar(calculate(0, x));
+  }
+  p.innerHTML += l + "<br>";
 };
 
 window.onload = Function("","setInterval(displayText, 42)");
