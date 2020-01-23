@@ -6,18 +6,18 @@ var M = Math;
 var calculate = function(x, y) {
   var t =+ new Date / W;
   var d = function(a, b) {
-    return M.sqrt(M.pow(a - 99, 2) + M.pow(b - 66, 2))
+    return M.sqrt(M.pow(a - 99, 2) + M.pow(b - 66, 2));
+    // return M.sqrt(M.pow(a - 33, 2) + M.pow(b - 22, 2));
   };
 
   var v = M.sin(d(x + t, y) / 7) + Math.sin(d(x, y) / 7) + Math.sin(d(x, t / 4) / 7) + Math.sin(d(x, y + t) / 7);
-
-  return(0 | (7 + v)) * 23;
+  return(0 | (7 + v)) * 10;
 };
 
 var title = document.title;
 
 var chooseChar = function(b){
-  return b < 70 ? " " : b < 100 ? "_" : b < 175 ? "-" : b < 200 ? "+" : "@";
+  return b < 50 ? " " : b < 70 ? "_" : b < 80 ? "=" : b < 100 ? "-" : " ";
 };
 
 var displayText = function() {
