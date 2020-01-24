@@ -1,5 +1,5 @@
 # Site settings
-title: TopLap IL
+title: TOPLAP Israel
 description: "Home of the live coding community in Israel."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "https://TOPLAP-Israel.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
@@ -18,7 +18,7 @@ profile_picture: /assets/img/home/logo-black-cropped.png
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /blog/:title/
 
 # html minify
 compress_html:

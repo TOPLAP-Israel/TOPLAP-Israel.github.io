@@ -1882,6 +1882,7 @@ footer p {
 .blog-card:hover .details {
   left: 0%;
 }
+
 @media (min-width: 640px) {
   .blog-card {
     flex-direction: row;
@@ -1986,6 +1987,7 @@ footer p {
     opacity: 0.24387;
   }
 }
+
 @keyframes textShadow {
   0% {
     text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px;
@@ -2051,6 +2053,7 @@ footer p {
     text-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
   }
 }
+
 .crt::after {
   content: " ";
   display: block;
@@ -2065,6 +2068,7 @@ footer p {
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
+
 .crt::before {
   content: " ";
   display: block;
@@ -2078,6 +2082,7 @@ footer p {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
 }
+
 .crt {
   animation: textShadow 1.6s infinite;
 }
@@ -2087,7 +2092,6 @@ footer p {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.2rem;
   animation: textShadow 1.6s infinite;
-  /* opacity: 50%; */
   margin: 0;
   color: white;
 }
@@ -2096,4 +2100,60 @@ footer p {
   .pre-post-header {
     font-size: 0.6rem;
   }
+}
+
+@font-face {
+  font-family: "Akron Shades NBP";
+  src: url('./akron-shades-nbp/ak_shadow.ttf');
+}
+
+@keyframes logoShadow {
+  0% {
+    text-shadow: 2.5px 0 1px rgba(74, 0, 255);
+  }
+  20% {
+    text-shadow: 5.5px 0 1px rgba(0, 255, 255);
+  }
+  40% {
+    text-shadow: 6px 0 1px rgba(244, 236, 142);
+  }
+  60% {
+    text-shadow: 4px 0 1px rgba(74, 0, 255);
+  }
+  80% {
+    text-shadow: 2.5px 0 1px rgba(15, 216, 11);
+  }
+  100% {
+    text-shadow: 4.5px 0 1px rgba(0, 255, 255);
+  }
+}
+
+.about-logo p {
+  font-family: "Akron Shades NBP", sans-serif !important;
+  animation: logoShadow 2.6s infinite;
+  text-align: center;
+  font-size: 8em !important;
+}
+
+@media only screen and (max-width:37.5rem){
+  .about-logo p {
+    font-size: 2em !important;
+  }
+}
+
+@media only screen and (min-width:37.5rem) and (max-width:85.0rem){
+  .about-logo p {
+    font-size: 3.5em !important;
+  }
+}
+
+/* CALENDAR STYLE */
+.calendar {
+  text-align: center;
+  padding-top: 1.7em;
+}
+
+.calendar h2::before {
+  content: '##';
+  font-size: 1.563rem;
 }

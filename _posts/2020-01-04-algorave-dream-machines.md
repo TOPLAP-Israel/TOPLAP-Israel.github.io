@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Dream Machines"
-post_title:  "TOPLAP Israel presents Israel's First Algorave: Dream Machines"
+post_title: "TOPLAP Israel presents Israel's First Algorave: Dream Machines"
 image: '/assets/img/posts/dream-machines/Algorave_Dream_Machines.gif'
-date:   2020-01-04
+date: 2020-01-04
 author: "Mynah Marie"
 tags:
 - algorave
