@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Violent Emre and Earth To Abigail"
-post_title: "Food Hacking + Algorithmic Music Evening with Violent Emre and Earth To Abigail"
-image: "/assets/img/posts/ViolentEmreTami/EIF-17.jpg"
-date: 2020-01-04
+post_title: "Food Hacking + Algorithmic Music Evening with Violent Emres and Earth To Abigail"
+image: "/assets/img/posts/ViolentEmresTami/EIF-17.jpg"
+date: 2020-02-10
 author: "Mynah Marie"
 tags:
 - algorave
@@ -17,11 +17,11 @@ categories:
 <img style="width:100%;height:100%;" src="{{page.image}}">
 
 TOPLAP Israel and TAMI are collaborating to create an exciting food hacking and algorithmic music night with a very special
-guest. Violent Emre is a young live coder from Turkey who will be touring in Israel for 2 weeks towards the end of March 2020.
+guest. Violent Emres is a young live coder from Turkey who will be touring in Israel for 2 weeks towards the end of March 2020.
 
 Working primarily with Tidal Cycles, he creates dark break beat atmospheres with expressive sound design, creating a dark but yet inspiring soundscape and beats.
 
-For this special evening, Emre will be collaborating with Earth To Abigail for some live coding madness using Tidals as well as Sonic Pi.
+For this special evening, Emres will be collaborating with Earth To Abigail for some live coding madness using Tidals as well as Sonic Pi.
 
 Visuals for the show will be generated live by Eyal Gruss.
 
@@ -36,3 +36,19 @@ Food will be ready at 8pm, performance starts at 9pm
 **Entrance**
 
 **40₪** (Includes dinner + show)<br>
+
+### Listen To Violent Emres and Earth To Abigail
+
+[soundcloud.com/violentemres](https://soundcloud.com/violentemres)<br>
+[soundcloud.com/earth-to-abigail](https://soundcloud.com/earth-to-abigail)<br>
+
+
+### Follow Violent Emres and Earth To Abigail on Social Media!
+
+**Instagram**<br>
+[@violentemres](https://www.instagram.com/violentemres/)<br>
+[@mynah_m](https://www.instagram.com/mynah_m/)<br>
+
+**Twitter**<br>
+[@violentemres](https://twitter.com/violentemres)<br>
+[@EarthAbigail](https://twitter.com/EarthAbigail)<br>
