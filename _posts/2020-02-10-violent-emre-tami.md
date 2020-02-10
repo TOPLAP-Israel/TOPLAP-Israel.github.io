@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Violent Emre and Earth To Abigail"
+title: "Violent Emres and Earth To Abigail"
 post_title: "Food Hacking + Algorithmic Music Evening with Violent Emres and Earth To Abigail"
 image: "/assets/img/posts/ViolentEmresTami/EIF-17.jpg"
 date: 2020-02-10
@@ -9,7 +9,7 @@ tags:
 - algorave
 - algorithmic music
 - creative coding
-description: "TOPLAP Israel and TAMI collaborate for an exciting algorithmic music and food hacking evening with Violent Emre from Turkey and Earth To Abigail."
+description: "TOPLAP Israel and TAMI collaborate for an exciting algorithmic music and food hacking evening with Violent Emres from Turkey and Earth To Abigail."
 categories:
 - Algorithmic Events
 ---
