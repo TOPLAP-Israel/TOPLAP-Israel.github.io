@@ -6,17 +6,6 @@ description: "Articles, News and Updates"
 ---
 
 <h2>Articles, News and Updates</h2>
-
-<!-- <div class="aboutme">
-	<ul class="recent">
-		{% for post in site.posts %}
-	    	<li>
-					<a href="{{ post.url }}"><h3 class="project-name" itemprop="name">{{ post.title }}</h3></a>
-					<img style="width:25%" src="{{ post.image }}" alt="">
-				</li>
-	    {% endfor %}
-	</ul>
-</div> --->
 <div class="aboutme">
 <div style="padding-top:1.5rem;">
 
@@ -26,21 +15,9 @@ description: "Articles, News and Updates"
 	<div class="blog-card">
 		<div class="meta">
 			<div class="photo" style="background-image: url({{ post.image }})"></div>
-			<!-- <ul class="details">
-				<li class="author"><a href="#">{{ post.author }}</a></li>
-				<li class="date">{{ post.date }}</li>
-				<li class="tags">
-					<ul>
-						{% for category in post.categories %}
-						<li>{{ category }}</li>
-						{% endfor %}
-					</ul>
-				</li>
-			</ul> -->
 		</div>
 		<div class="description">
 			<h1 class="project-name">{{ post.title }}</h1>
-			<!-- <h2>Opening a door to the future</h2> -->
 			<p>{{ post.description }}</p>
 			<p class="read-more">
 				<a href="{{ post.url }}">Read More</a>

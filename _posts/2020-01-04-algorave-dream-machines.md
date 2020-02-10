@@ -14,7 +14,7 @@ categories:
 - Algorithmic Events
 ---
 
-<img style="width:100%;height:100%;" src="/assets/img/posts/dream-machines/Dream_Machines_banner_highres.gif">
+<img style="width:100%;height:100%;" src="{{page.image}}">
 
 Uniting both visual and sound artists, **Dream Machines** is a celebration of our passion for code. We celebrate code
 not only for the possibilities it can open but also because of the sense of magic it can create when used as a form
