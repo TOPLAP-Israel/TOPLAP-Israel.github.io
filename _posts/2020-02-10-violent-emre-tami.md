@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Violent Emres and Earth To Abigail"
+title: "Music + Food Hack"
 post_title: "Food Hacking + Algorithmic Music Evening with Violent Emres and Earth To Abigail"
 image: "/assets/img/posts/ViolentEmresTami/EIF-17.jpg"
 date: 2020-02-10
