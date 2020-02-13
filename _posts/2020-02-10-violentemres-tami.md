@@ -2,7 +2,7 @@
 layout: post
 title: "Music + Food Hack"
 post_title: "Food Hacking + Algorithmic Music Evening with ViolentEmres and Earth To Abigail"
-image: "/assets/img/posts/ViolentEmresTami/EIF-17.jpg"
+image: "/assets/img/posts/ViolentEmresTami/E+A-violentemres.jpg"
 date: 2020-02-10
 author: "Mynah Marie"
 tags:
